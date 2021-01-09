@@ -1,28 +1,46 @@
-[11:28:40] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:28:43] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:28:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:28:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:28:43] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:28:43] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:28:43] [main/INFO]: Reloading ResourceManager: Default
-[11:28:48] [Worker-Main-6/INFO]: Loaded 7 recipes
-[11:28:51] [Worker-Main-6/INFO]: Loaded 927 advancements
-[11:28:59] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[11:28:59] [Server thread/INFO]: Loading properties
-[11:28:59] [Server thread/INFO]: Default game type: SURVIVAL
-[11:28:59] [Server thread/INFO]: Generating keypair
-[11:29:00] [Server thread/INFO]: Starting Minecraft server on 10.8.2.31:5674
-[11:29:00] [Server thread/INFO]: Using epoll channel type
-[11:29:00] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[11:29:00] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Cannot assign requested address
-[11:29:00] [Server thread/WARN]: Perhaps a server is already running on that port?
-[11:29:00] [Server thread/INFO]: Stopping server
-[11:29:00] [Server thread/INFO]: Saving worlds
-[11:29:00] [Server thread/ERROR]: Exception stopping the server
-java.lang.NullPointerException: null
-	at net.minecraft.server.MinecraftServer.a(SourceFile:572) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.t(SourceFile:599) ~[server.jar:?]
-	at zg.t(SourceFile:567) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.w(SourceFile:707) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:257) ~[server.jar:?]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
+[18:50:20] [User Authenticator #8/INFO]: UUID of player MoonBurst152 is 87e05c9f-2684-4c7c-a018-d685ac3e8462
+[18:50:20] [Server thread/INFO]: MoonBurst152[/70.16.33.146:58356] logged in with entity id 23428 at (39.74792372020762, 72.0, 170.74284943518066)
+[18:50:20] [Server thread/INFO]: MoonBurst152 joined the game
+[18:54:35] [Server thread/INFO]: MoonBurst152 has made the advancement [Monster Hunter]
+[18:56:16] [Server thread/INFO]: MoonBurst152 lost connection: Disconnected
+[18:56:16] [Server thread/INFO]: MoonBurst152 left the game
+[19:06:38] [User Authenticator #9/INFO]: UUID of player MoonBurst152 is 87e05c9f-2684-4c7c-a018-d685ac3e8462
+[19:06:38] [Server thread/INFO]: MoonBurst152[/70.16.33.146:58606] logged in with entity id 24182 at (4.970894554010565, 67.0, 78.02859145220411)
+[19:06:38] [Server thread/INFO]: MoonBurst152 joined the game
+[19:20:50] [Server thread/INFO]: MoonBurst152 has made the advancement [Stone Age]
+[19:23:31] [Server thread/INFO]: MoonBurst152 has made the advancement [Getting an Upgrade]
+[19:26:29] [Server thread/INFO]: MoonBurst152 was slain by Zombie
+[19:51:28] [Server thread/INFO]: MoonBurst152 lost connection: Disconnected
+[19:51:28] [Server thread/INFO]: MoonBurst152 left the game
+[19:53:27] [User Authenticator #10/INFO]: UUID of player MoonBurst152 is 87e05c9f-2684-4c7c-a018-d685ac3e8462
+[19:53:27] [Server thread/INFO]: MoonBurst152[/70.16.33.146:59323] logged in with entity id 29543 at (-176.5176195523708, 69.0, 209.69999998807907)
+[19:53:27] [Server thread/INFO]: MoonBurst152 joined the game
+[20:12:08] [Server thread/INFO]: MoonBurst152 fell from a high place
+[20:13:26] [Server thread/INFO]: MoonBurst152 fell from a high place
+[20:17:28] [Server thread/INFO]: MoonBurst152 lost connection: Disconnected
+[20:17:28] [Server thread/INFO]: MoonBurst152 left the game
+[20:19:24] [User Authenticator #11/INFO]: UUID of player MoonBurst152 is 87e05c9f-2684-4c7c-a018-d685ac3e8462
+[20:19:24] [Server thread/INFO]: MoonBurst152[/70.16.33.146:59787] logged in with entity id 33263 at (-371.0559989468141, 63.0, 361.8919474923091)
+[20:19:24] [Server thread/INFO]: MoonBurst152 joined the game
+[20:19:30] [Server thread/INFO]: MoonBurst152 was slain by Zombie
+[20:23:43] [Server thread/INFO]: MoonBurst152 lost connection: Disconnected
+[20:23:43] [Server thread/INFO]: MoonBurst152 left the game
+[21:26:03] [User Authenticator #12/INFO]: UUID of player MoonBurst152 is 87e05c9f-2684-4c7c-a018-d685ac3e8462
+[21:26:04] [Server thread/INFO]: MoonBurst152[/70.16.33.146:61090] logged in with entity id 34056 at (-197.92576269224617, 76.0, 133.17426209356776)
+[21:26:04] [Server thread/INFO]: MoonBurst152 joined the game
+[21:31:20] [Server thread/INFO]: MoonBurst152 has made the advancement [Sweet Dreams]
+[21:32:30] [Server thread/INFO]: MoonBurst152 has made the advancement [Acquire Hardware]
+[21:32:54] [Server thread/INFO]: MoonBurst152 has made the advancement [Isn't It Iron Pick]
+[21:37:48] [Server thread/INFO]: MoonBurst152 has made the advancement [Ice Bucket Challenge]
+[21:43:46] [Server thread/INFO]: MoonBurst152 has made the advancement [Suit Up]
+[21:48:27] [Server thread/INFO]: MoonBurst152 lost connection: Disconnected
+[21:48:27] [Server thread/INFO]: MoonBurst152 left the game
+[21:49:19] [User Authenticator #13/INFO]: UUID of player MoonBurst152 is 87e05c9f-2684-4c7c-a018-d685ac3e8462
+[21:49:19] [Server thread/INFO]: MoonBurst152[/70.16.33.146:61636] logged in with entity id 36415 at (-285.444355455189, 74.0, 56.489045740427215)
+[21:49:19] [Server thread/INFO]: MoonBurst152 joined the game
+[22:10:29] [Server thread/INFO]: MoonBurst152 has made the advancement [What a Deal!]
+[22:35:59] [Server thread/INFO]: MoonBurst152 lost connection: Disconnected
+[22:35:59] [Server thread/INFO]: MoonBurst152 left the game
+[23:21:23] [User Authenticator #14/INFO]: UUID of player MoonBurst152 is 87e05c9f-2684-4c7c-a018-d685ac3e8462
+[23:21:23] [Server thread/INFO]: MoonBurst152[/70.16.33.146:63820] logged in with entity id 43808 at (-1176.5, 54.0, -404.5)
+[23:21:23] [Server thread/INFO]: MoonBurst152 joined the game
